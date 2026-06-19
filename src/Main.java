@@ -8,7 +8,6 @@ public class Main {
         int[] numbers = new int[5];
 
         System.out.println(" track2");
-
         for (int i = 0; i < star.length; i++) {
             System.out.println(star[i]);
         }
