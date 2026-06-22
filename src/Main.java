@@ -32,6 +32,8 @@ public class Main {
         for (int e = 0; e < numbers.length; e++) {
             if (e == numbers.length - 1) {
                 System.out.print(numbers[e]);
+            }else {
+                System.out.println( numbers[e] + ",");
             }
         }
             System.out.println();
@@ -74,15 +76,14 @@ public class Main {
 
 
 
-        int[] arr = new int[]{1, 2, 3};
-            for (int r = 0; r < arr.length; r++) {
-                arr[r] = r + 1;
-                if (arr[r] % 2 != 0) {
-                    arr[r] += 1;
+        int[] star3 = new int[]{1, 2, 3};
+            for (int r = 0; r < star3.length; r++) {
+                if (star3[r] % 2 != 0) {
+                    star3[r] += 1;
                 }
             }
 
-                    System.out.println(Arrays.toString(arr));
+                    System.out.println(Arrays.toString(star3));
 
                 }
             }
